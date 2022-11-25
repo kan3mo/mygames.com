@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wiki games</title>
+<style>
+   
+*{
+    margin:0;
+    padding:0;
+}
+#check{
+    display: none;
+}
+#icone{
+    cursor: pointer;
+    
+    position:absolute;
+    z-index: 1;
+}
+.barra{
+    background-color: #333;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition:all .2s linear ;
+    left: -300px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+    nav a{
+        text-decoration: none;
+    }
+    .link{
+        background-color: #494950;
+        padding:20px;
+        font-family: 'Arial';
+        font-size: 12pt;
+        transition: all .2s linear;
+        color:#f4f4f9;
+        border-bottom: 2px solid #222;
+        opacity: 0;
+        margin-top:200px ;
+    }
+    .link:hover{
+        background-color:green;
+    }
+    #check:checked ~ .barra{
+        transform:translateX(300px)
+    }
+    #check:checked ~ .barra nav a .link{
+       opacity: 1;
+       margin-top: 0;
+       transition-delay: .2s;
+    }
+
+    body{
+    background-image: url(Hollowknight/backHollow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    padding: 1.5%;
+    
+    }
+    #main{
+        background: rgba(252, 250, 250, 0.70) ;width:100%;;
+    }
+</style>
+
+</head>
+<!--inicio da side-bar-->
+<body>
+    <div class="w3-container ">
+    <input type="checkbox" id="check">
+    <label id="icone" for="check"><img src="Hollowknight/bars.png"></label>
+    <div class="barra">
+        <nav>
+            <a href="file:///C:/Users/pedro/OneDrive/Documentos/Luciene/site/Home.html#"><div class="link">Voltar</div></a>
+            <a href="#sobre"><div class="link">sobre</div></a>
+            <a href="#informações"><div class="link">informações</div></a>
+            <a href="#personagens"><div class="link">personagens</div></a>
+            <a href="#locais"><div class="link">locais</div></a>
+            <a href="#inimigos"><div class="link">Inimigos</div></a>
+            <a href="#musica"><div class="link">Trilha sonora</div></a>
+        </nav>
+    </div>
+    <!--fim da side-bar-->
+    <!--logo-->
+    
+<img style="width:20% ;height:40%;margin-top:0; padding-left: 34px;" src="Hollowknight/logoHollow.png" alt="">
+<!--logo-->
+</div>
+<main id="main">
+    
+    <h1 class="w3-center">Hollow Knight</h1>
+    <!--primeira imagem-->
+    <center><img class=""style="border: 0.75px solid green; " src="Hollowknight/hollowKnight.png" alt=""></center>
+    <div class="w3-panel w3-border-top w3-border-bottom w3-border-black">
+        <!--inicio do sobre-->
+        <h3 id="sobre"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">sobre:</h3>
+        <div class="w3-row">
+        <div class="w3-col "style="width:45%"><h3>Sob a desvanecida cidade de Dirtmouth, dorme um reino antigo e esquecido. Agora alguma coisa desperta em suas ruínas, uma força poderosa que torna os insetos loucos e rouba as memórias dos viajantes. Muitos exploram sob a superfície procurando riquezas, glória, ou respostas a velhos segredos.
+
+            Qual é a fonte dessa nova praga? Que desastre ocorreu nesse grandioso reino? Para resolver esses mistérios será necessária uma longa jornada, mas talvez seja melhor que alguns segredos permaneçam enterrados...</h3></div>
+        <div class="w3-col" style="width:55%"><center><img width: 70%; src="Hollowknight/fantasmaHK.png" alt=""></center></div>
+    </div>
+        <br>
+        <br>
+          <!--fim do sobre-->
+          <!--inicio das informações-->
+          <h3 id="informações"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">informações:</h3>
+        
+          <table class="w3-table-all">
+            <tr>
+              <th style="background-color: gray;width:33%">Ano de lançamento</th>
+              <th style="background-color: gray;width:33%">Genero</th>
+              <th style="background-color: gray;width:33%">Plataformas</th>
+            </tr>
+            <tr>
+              <td>26 de fevereiro de 2016</td>
+              <td>Simulação</td>
+              <td >Xbox One</td>
+              
+            </tr>
+            <tr>
+                <td></td>
+                <td>Single Player</td>
+                <td>Computador</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>PlayStation 4</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Nintendo Switch</td>
+            </tr>
+            
+            </table>
+            <!--fim das informaçoes-->
+            <!--inicio dos personagens -->
+            <h3 id="personagens"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Personagens:</h3>
+            <div>
+                <div class="w3-row w3-row-padding"> 
+                    <h2>Hornet</h2>     
+                    <div class="w3-col" style="width:10%;">
+                        <img style="width:150%; height: 50%;"src="Hollowknight/HornetHK.png" alt="">
+                    </div>
+                    <div class="w3-rest"style="width:65%;padding-left:15%">
+                        <p>
+                            Criada em Deepnest, Hornet sobreviveu à infecção e à queda do reino. Ela vagueia por suas ruínas, perseguindo viajantes que tentariam profaná-las, mas também protegendo o selamento do Ovo Negro . Ela também guarda o Cast-Off Shell no Kingdom's Edge, que pode conceder a King's Brand , a chave para o Abismo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w3-row"> 
+                    <h2>Quirrel:</h2>
+                    <div class="w3-col" style="width:10.5%;">
+                        <img style="width:105%; padding-left: 25%; height: 30%;"src="Hollowknight/quirrelHK.png" alt="">
+                    </div>
+                    <div class="w3-rest"style="width:65%;padding-left:15%;">
+                        <p>
+                            Quirrel perdeu muito de sua memória eventualmente.Ele foi chamado de volta para Hallownest por Monomon, Ele teve sonhos com Hallownest; o Desfiladeiro da Névoa , a Encruzilhada Esquecida , o Templo do Ovo Negro e o Cavaleiro Oco .Quirrel conhece Hornet , com quem ele luta brevemente. Hornet permite que Quirrel entre em Hallownest quando ela reconhece a máscara de Monomon.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w3-row w3-row-padding"> 
+                        <h2>Zote:</h2>
+                        <div class="w3-col" style="width:10.5%;">
+                            <img style="width:100%;"src="Hollowknight/zoteHK.png" alt="">
+                        </div>
+                        <div class="w3-rest"style="width:65%;padding-left:15%">
+                            <p>
+                                Zote é um viajante de fora de Hallownest que veio ao Reino para cumprir uma promessa.  Em última análise, isso é revelado como uma promessa de glória para si mesmo.
+
+                                Ele chamou sua unha de "Life Ender" porque os nomes supostamente têm poder.  Infelizmente, por ser feito de shellwood, não pode causar dano.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w3-row w3-row-padding"> 
+                            <h2>Grim:</h2>
+                            <div class="w3-col" style="width:10.5%;">
+                                <img style="width:70%;"src="Hollowknight/grimHK.png" alt="">
+                            </div>
+                            <div class="w3-rest"style="width:65%;padding-left:15%">
+                                <p>
+                                    Grimm , também conhecido como Nightmare King , é um antagonista coadjuvante em Hollow Knight , apresentado no DLC "The Grimm Troupe". Ele é o vilão líder do misterioso Grimm Troupe , um grupo de artistas que buscam coletar as chamas do reino caído de Hallownest para prolongar o Nightmare's Heart, um processo que o Troupe chama de "O Ritual", e manipula o Cavaleiro em fazendo seu lance.
+                                </p>
+                            </div>
+                    </div>
+
+                    <div class="w3-row w3-row-padding"> 
+                            <h2>O Cavaleiro:</h2>
+                            <div class="w3-col" style="width:10.5%;">
+                                <img style="width:125%; padding-right: 20%;"src="Hollowknight/fantasminhaHK.png" alt="">
+                            </div>
+                            <div class="w3-rest"style="width:65%;padding-left:15%">
+                                <p>
+                                    O Cavaleiro é o protagonista de Hollow Knight. Um viajante silencioso e de expressão vazia, ele se encontra na entrada de Hallownest sem um objetivo aparente, apenas mais um entre milhares de aventureiros fadados ao fracasso e morte nas ruínas do grande reino. Conforme sua jornada progride, ele encontra figuras e aliados, inimigos e monstros e várias maravilhas, e também o seu propósito, aos poucos redescobrindo seu passado e o seu destino.
+                                </p>
+                            </div>
+                    </div>
+
+            </div>
+            
+               <br>
+            <!--fim dos personagens--> 
+            <!--inicio das areas-->
+            
+            <h3 id="locais"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Locais:</h3>
+            <table class="w3-table-all">
+                <tr>
+                    <th style="background-color: gray; width:33%;">nome</th>
+                    <th style="background-color: gray;width:33%;">mapa</th>
+                    <th style="background-color: gray;width:33%;">descrição</th>
+                  </tr>
+                  <tr>
+                    <td><img style="width:60% ;" src="Hollowknight/mapaInicialHK.png" alt="">Dirtmouth</td>
+                    <td><img style="width:60%;" src="Hollowknight/mapaInicial1HK.png" alt=""></td>
+                    <td style="width:25%; ">Um pequeno vilarejo situado sobre a maior parte de Hallownest, encontrado no começo do jogo. É onde o jogador pode, pela primeira vez, entrar em Hallownest propriamente.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><img style="width:57% ;" src="Hollowknight/PicoDeCristalHK.png" alt="">Pico de Cristal</td>
+                    <td><img style="width:65%;" src="Hollowknight/PicoDeCristal2HK.png" alt=""></td>
+                    <td style="width:25%; ">Localizado ao leste de Dirtmouth, uma montanha alta, uma vez minerada por seus cristais preciosos. As carcaças de vários mineradores ainda cumprem suas tarefas.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><img style="width:57%;" src="Hollowknight/CidadeDasLagrimas.png" alt="">Cidade da Lágrimas</td>
+                    <td><img style="width:60%;" src="Hollowknight/CidadeDaLágrimas2.png" alt=""></td>
+                    <td style="width:25%; ">A enorme capital de Hallownest e o coração de um outrora grande Reino, agora cheio de carcaças de insetos nobres tolos e guardas ainda dedicados a seus deveres.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><img style="width:57% ;" src="Hollowknight/LagoAzulHK.png" alt="">Terra do Descanso</td>
+                    <td><img style="width:60%;" src="Hollowknight/LagoAzul2HK.png" alt=""></td>
+                    <td style="width:25%; ">Um grande cemitério no canto leste de Hallownest, cheio de túmulos e lápides ornamentadas. O jogador primeiro cai nessa área por um buraco no Pico de Cristal, onde ele encontra o monumento e recebe a localização dos Sonhadores. Ele também receberá o Ferrão dos Sonhos.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><img style="width:57% ;" src="Hollowknight/caminhoVerdeHK.png" alt="">caminho verde</td>
+                    <td><img style="width:60%;" src="Hollowknight/caminhoVerde2HK.png" alt=""></td>
+                    <td style="width:25%; ">Túneis verdejantes protegidos por uma espécie de insetos frondosos. Piscinas de ácido ardente e o crescimento excessivo de plantas tornam a movimentação difícil.</td>
+                    
+                  </tr>
+                    
+            </table>
+            <!--fim das areas-->
+            <!--inicio dos inimigos-->
+
+            <h3 id="inimigos"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">inimigos:</h3>
+        <div class="w3-row w3-row-padding">
+            <div class=" w3-third"style="width:33%;border:1px solid black"><center><img class="" src="Hollowknight/besouroHK.gif" alt="" style="width: 34.1%;"></center>
+            <h2 class="w3-card w3-center">carcaça Errante</h2>
+            <p>Estes insetos" 'civilizados' de Hallownest eram fracos em vida e agora eles são igualmente fracos ne morte. </p>
+            
+        </div>
+            <div class="w3-third"style="width:33%;border:1px solid black"><center><img class="" src="Hollowknight/CavaleiroFoiaHK.gif" alt="" style="width: 34.8%;"></center>
+            <h2 class="w3-card w3-center">Cavaleiro Musgoso</h2>
+            <p>Eles se disfarçam de arbustos e parecem macios,mas cuidado com esses gueirros!Eles são implacáveis no combate.</p>
+        
+        </div>
+            <div class="w3-third"style="width:33%;border:1px solid black"><center><img class="" src="Hollowknight/cogumeloHK.gif" alt="" style="width: 32.09%;"></center>
+            <h2 class="w3-card w3-center">Guerreiro Fúngico</h2>
+            <p>Algo estranho no ar fez com que esses fungos crecessem corações,mentes e até rostos!Isto significa que agora temem por suas vidas.</p>
+        </div>
+        </div>
+        
+    
+
+            <!--fim dos inimigos-->
+        <!--inicio das musicas-->
+        
+        
+            <h3 id="musica"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Trilha Sonora:</h3>
+            01-Enter Hallownest
+            02-Dirtmouth -
+            03-Crossroads-
+            04-False Knight -
+            05-Greenpath -
+            06-Hornet -
+            07-Reflection -
+            08-Mantis Lords -
+            09-City of Tears -
+            10-Dung Defender -
+            11-Crystal Peak-
+            12-Fungal Wastes -
+            13-Decisive Battle -
+            14-Soul Sanctum -
+            15-Resting Grounds-
+            16-Queen's Gardens -
+            17-	The White Lady -
+            18-Broken Vessel -
+            19-Kingdom's Edge -
+            20-Nosk -
+            21-Dream-
+            23-Dream Battle -
+            24-White Palace -
+            25-Sealed Vessel -
+            26-Radiance -
+            27-Hollow Knight.
+    </div>   
+</main>
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wiki games</title>
+<style>
+   
+*{
+    margin:0;
+    padding:0;
+}
+#check{
+    display: none;
+}
+#icone{
+    cursor: pointer;
+    
+    position:absolute;
+    z-index: 1;
+}
+.barra{
+    background-color: #333;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition:all .2s linear ;
+    left: -300px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+    nav a{
+        text-decoration: none;
+    }
+    .link{
+        background-color: #494950;
+        padding:20px;
+        font-family: 'Arial';
+        font-size: 12pt;
+        transition: all .2s linear;
+        color:#f4f4f9;
+        border-bottom: 2px solid #222;
+        opacity: 0;
+        margin-top:200px ;
+    }
+    .link:hover{
+        background-color:green;
+    }
+    #check:checked ~ .barra{
+        transform:translateX(300px)
+    }
+    #check:checked ~ .barra nav a .link{
+       opacity: 1;
+       margin-top: 0;
+       transition-delay: .2s;
+    }
+
+    body{
+    background-image: url(MortalKombatX/bodyMortal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    padding: 1.5%;
+    
+    }
+    #main{
+        background: rgba(252, 250, 250, 0.70) ;width:100%;;
+    }
+</style>
+
+</head>
+<!--inicio da side-bar-->
+<body>
+    <div class="w3-container ">
+    <input type="checkbox" id="check">
+    <label id="icone" for="check"><img src="MortalKombatX/bars.png"></label>
+    <div class="barra">
+        <nav>
+            <a href="file:///C:/Users/pedro/OneDrive/Documentos/Luciene/site/Home.html#"><div class="link">Voltar</div></a>
+            <a href="#sobre"><div class="link">sobre</div></a>
+            <a href="#informações"><div class="link">informações</div></a>
+            <a href="#personagens"><div class="link">personagens</div></a>
+            <a href="#locais"><div class="link">locais</div></a>
+            <a href="#inimigos"><div class="link">Inimigos</div></a>
+            <a href="#musica"><div class="link">Trilha sonora</div></a>
+        </nav>
+    </div>
+    <!--fim da side-bar-->
+    <!--logo-->
+    
+<img style="width:20% ;height:40%;margin-top:0; padding-left: 30px;" src="MortalKombatX/logoMortal.png" alt="">
+<!--logo-->
+</div>
+<main id="main">
+    
+    <h1 class="w3-center">Mortal Kombat</h1>
+    <!--primeira imagem-->
+    <center><img class=""style="border: 0.75px solid yellow; width:49%;" src="MortalKombatX/MortalKombat.png" alt=""></center>
+    <div class="w3-panel w3-border-top w3-border-bottom w3-border-black">
+        <!--inicio do sobre-->
+        <h3 id="sobre"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">sobre:</h3>
+
+        <div class="w3-half w3-row"><h3><h2>  </h2>
+          <p> 
+            Mortal Kombat é uma excelente série de jogos de luta que há mais de 20 anos explora a violência exageradamente cômica. Mas, ao mesmo tempo, seus combates conseguem ser simples para jogadores casuais, e avançados para os mais experientes no gênero. Nessas mais de duas décadas, os pilares que mantêm a franquia de pé, com seus personagens, mundos alternativos e muita "karnificina", evoluíram bastante, até chegar ao ponto de passar o bastão para uma nova geração.
+
+            Mortal Kombat X é prova deste amadurecimento da franquia idealizada por Ed Boon e John Tobias. Ela estreia na nova geração de videogames trazendo lutas muito gostosas de jogar e de assistir, seja você um jogador de games de luta, seja você um amante dos blockbusters, ou chamados "games pipoca". A nova versão está entre os melhores jogos de toda a série, tanto por conta de seu visual quanto de seus controles com resposta rápida e a violência exagerada característica.
+            
+            Boon conseguiu idealizar aqui o MK definitivo, e para isso tentou incluir (quase) tudo o que a franquia criou ao longo dos anos. Há muitos personagens, uma história bastante complexa e interessante, digna de um filme trash, diga-se de passagem, e muito conteúdo para jogar após o game ser terminado.
+            
+            Acima de tudo, Mortal Kombat X tenta mostrar uma passagem de gerações que vai muito além da renovação dos consoles. É a tentativa de passar o legado de personagens que amamos há duas décadas para seus filhos -- literalmente --, e talvez por isso, o game insista em mostrar essa relação em seu modo História. No elenco, há os filhos de Johnny Cage e Sonya Blade (Cassie Cage), de Kenshi (Takeda) e de Jax (Jacqui Briggs), além de um descendente de Kung Lao, Kung Jin. E como todo relacionamento em família, os pais têm expectativas para com seus filhos, enquanto que os filhos exigem e reclamam de seus pais.
+            
+            E essa relação familiar também representa um pouco da relação dos criadores com os fãs da série. Eles sempre querem mais elementos no jogo e reclamam, enquanto os produtores tentam adicionar mais. Fica difícil reclamar da falta de conteúdo em Mortal Kombat X -- há tanta novidade e recursos ali que fácil mesmo é defini-lo como o melhor game de luta da atual geração de consoles.
+          </p>
+        </h3></div>
+        <div class="w3-half w3-row"><center><img style="width: 55%;height: 35%;"src="MortalKombatX/imagemMortal.png" alt=""></center></div>
+    
+    </div>
+        <br>
+        <br>
+          <!--fim do sobre-->
+          <!--inicio das informações-->
+          <h3 id="informações"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">informações:</h3>
+        
+          <table class="w3-table-all">
+            <tr>
+              <th style="background-color: rgb(26, 9, 128);width:33%">Ano de lançamento</th>
+              <th style="background-color: rgb(26, 9, 128);width:33%">Genero</th>
+              <th style="background-color: rgb(26, 9, 128);width:33%">Plataformas</th>
+            </tr>
+            <tr>
+                <td>14 de abril de 2015</td>
+                <td> Ação</td>
+                <td >Microsoft Windows</td>
+              
+            </tr>
+            <tr>
+                <td></td>
+                <td> Luta</td>
+                <td>Computador</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>PlayStation 4</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td> Xbox One</td>
+            </tr>
+            
+            </table>
+            <!--fim das informaçoes-->
+            <!--inicio dos personagens -->
+            <h3 id="personagens"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Personagens:</h3>
+            <div>
+                <div class="w3-row w3-row-padding"> <!--Scorpion-->       
+                    <h2>Scorpion:</h2>
+                    <div class="w3-col" style="width:10%;">
+                        <img style="width:100%;"src="MortalKombatX/fotoScorpion.png" alt="">
+                    </div>
+                    <div class="w3-rest">
+                        <p>
+                            Scorpion (nascido Hanzo Hasashi) é um personagem jogável da franquia Mortal Kombat, criada pela Midway Games.
+                             Estreando como um dos sete personagens jogáveis originais do primeiro título, Mortal Kombat.
+                             Scorpion é o espectro de um ninja que busca vingar a própria morte, a destruição de seu clã e a morte de sua família,
+                             fazendo dele um anti-herói, seu papel principal durante toda a série até Mortal Kombat X. Excetuando a versão original de Mortal Kombat 3,
+                             Scorpion foi jogável em todos os jogos da franquia. É considerado um dos principais personagens da série, representando-a em crossovers,
+                             além de aparecer numa gama de mercadorias oficiais da série e em outros meios. Scorpion é, ainda, destaque no logotipo da NetherRealm Studios,
+                             sucessora da Midway Games.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w3-row"> <!--Subzero-->
+                    <h2>Subzero:</h2>
+                    <div class="w3-col" style="width:10%;">
+                        <img style="width:110px; height: 150;" src="MortalKombatX/fotoSubZero.png" alt="">
+                    </div>
+                    <div class="w3-rest">
+                        <p>
+                            Sub-Zero é o pseudônimo de dois personagens da franquia de jogos eletrônicos Mortal Kombat, um dos quais estava entre os personagens originais do primeiro título,
+                             lançado em 1992. O personagem é descrito como formidável e que possui a inata habilidade de controlar o gelo de diversas formas,
+                              bem como sua rivalidade com Scorpion. Após os eventos do primeiro torneio, revela-se que o primeiro Sub-Zero ,Bi-Han (em mandarin 碧涵 Bì hán),
+                               havia sido morto, sendo substituído por seu irmão mais novo, Kuai Liang (em mandarin 蒯良 Kuǎi liáng) a partir de Mortal Kombat II. Enquanto isso,
+                                Bi-Han renasceu como espectro Noob Saibot. Este último, inclusive, obteve seu próprio título derivado, intitulado Mortal Kombat Mythologies: Sub-Zero.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w3-row"> <!--Raiden-->
+                    <h2>Raiden:</h2>
+                    <div class="w3-col" style="width:10%;">
+                        <img style="width:100px; height: 150; "src="MortalKombatX/fotoRaiden.png" alt="">
+                    </div>
+                    <div class="w3-rest">
+                        <p>
+                            Raiden (também conhecido como Lord Raiden) é um personagem da série de jogos eletrônicos de luta criada por Ed Boon e John Tobias,
+                             Mortal Kombat. Raiden é o Deus do Trovão e protetor do reino da Terra, é sábio e poderoso. Com frequência ele lidera as forças do 
+                             bem contra o mal. Nas batalhas mais grandiosas, ele deixa o seu status de entidade divina e toma uma forma humana intervindo, lutando 
+                             contra as forças mais poderosas do mal. Tem um papel essencial na história e nos jogos da série. Sendo um deus, ele tem muitas habilidades 
+                             sobrenaturais, como teleportar-se, controlar raios e voar.
+                        </p>
+                    </div>
+                    <div class="w3-row"> <!--Kitana-->
+                        <h2>Baldur:</h2>
+                        <div class="w3-col" style="width:10%;">
+                            <img style="width: 100px;   height: 150;" src="MortalKombatX/fotoKitana.png" alt="">
+                        </div>
+                        <div class="w3-rest">
+                            <p>
+                                Kitana é uma personagem fictícia da série de jogos Mortal Kombat, introduzida em Mortal Kombat II, de 1993. Kitana é a princesa de Edenia,
+                                 filha da rainha Sindel com o rei Jerrod, e tem mais de 10.000 anos, embora aparente ter por volta dos vinte. Através dos anos ganhou grande
+                                  importância, primeiramente como leal assassina de Shao Kahn e depois sua inimiga, salvando Edenia das mãos do "imperador" e, em seguida, liderando
+                                   um exército em Outworld para evitar qualquer possibilidade de Shao Kahn voltar a oferecer perigo à Edenia. Kitana tem como arma leques com lâminas
+                                    que usa contra seus inimigos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-row"> <!--Magni-->
+                    <h2>Magni:</h2>
+                    <div class="w3-col" style="width:10%;">
+                        <img style="width:80px; height: 150;" src="MortalKombatX/fotoKano.png" alt="">
+                    </div>
+                    <div class="w3-rest">
+                        <p>
+                            Kano é um personagem da série de jogos de luta Mortal Kombat. Um dos sete personagens jogáveis do primeiro título da série,
+                             ele é um mercenário ciborgue que faz parte de um cartel internacional conhecido por Dragão Negro, e tem uma rivalidade com
+                              os militares Sonya Blade e Jax Briggs. Kano é uma fusão de personalidades, entre elas, as de seguidor covarde, sobrevivente solitário,
+                               uma pessoa completamente louca e um comandante inteligente.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            
+               <br>
+            <!--fim dos personagens--> 
+            <!--inicio das areas-->
+            
+            <h3 id="locais"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Locais:</h3>
+            <table class="w3-table-all">
+                <tr>
+                    <th style="background-color: rgb(26, 9, 128); width:33%;">Nome</th>
+                    <th style="background-color: rgb(26, 9, 128);width:33%;">Mapa</th>
+                    <th style="background-color: rgb(26, 9, 128);width:33%;">Descrição</th>
+                  </tr>
+                  <tr>
+                    <td><h3>Krossroads</h3></td>
+                    <td><img style="width:50%;" src="MortalKombatX/ilhaKrossroads.webp" alt=""></td>
+                    <td style="width:25%; ">Krossroads é um estágio da série Mortal Kombat localizado no Netherrealm. Ele fez sua estreia e única aparição até hoje em Mortal Kombat X.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><h3>Skytemplemkx</h3></td>
+                    <td><img style="width:50%;" src="MortalKombatX/ilhaSkytemplemkx.webp" alt=""></td>
+                    <td style="width:25%; ">O Sky Temple, localizado em Earthrealm, serve como um local de meditação para Raiden. O telhado do Sky Temple é adornado por seu War Hammer, que se comporta como um pára-raios.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><h3>Refugee Kamp </h3></td>
+                    <td><img style="width:50%;" src="MortalKombatX/ilhaRefugeeKamp.webp" alt=""></td>
+                    <td style="width:25%; ">Refugee Kamp é uma fase da série Mortal Kombat. Ele estreou em Mortal Kombat X</td>
+                  </tr>
+                  <tr>
+                    <td><h3>Bosque Morto</h3></td>
+                    <td><img style="width:50%;" src="MortalKombatX/ilhaDeadWoods.webp" alt=""></td>
+                    <td style="width:25%; "> The Dead Woods é uma floresta cheia de neve cheia de árvores mortas e apodrecidas e os corpos cobertos de neve há muito esquecidos de guerreiros caídos, suas armas enferrujadas por perto e lobos podem ser vistos correndo pela névoa ao fundo</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><h3>Cidade destruida</h3></td>
+                    <td><img style="width:50%;" src="MortalKombatX/ilhaCidade.webp" alt=""></td>
+                    <td style="width:25%; "> Cidade Destruída é uma cidade devastada dentro de Earthrealm , coberta pelos restos de edifícios desmoronados, um avião caído, veículos capotados e vegetação crescida.</td>
+                    
+                  </tr>
+                    
+            </table>
+            <!--fim das areas-->
+            <!--inicio dos inimigos-->
+
+            <h3 id="inimigos"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">inimigos:</h3>
+        <div class="w3-row w3-row-padding">
+            <div class=" w3-third"style="width:33%;border:1px solid black"><center><img class="" style="width:50% ;height: 35%;" src="MortalKombatX/inimigoShinnok.gif" alt=""></center>
+            <h2 class="w3-card w3-center">Shinnok</h2>
+            <p> Um dos principais vilões da franquia, ele estreou no spin-off de ação e aventura Mortal Kombat Mythologies. </p>
+            
+        </div>
+            <div class="w3-third"style="width:33%;border:1px solid black"><center><img style="width: 50% ;height: 35%;" src="MortalKombatX/inimigoKronika.gif" alt=""></center>
+            <h2 class="w3-card w3-center">Kronika</h2>
+            <p> Ela é a chefe final de Mortal Kombat. Ela é a Guardiã do Tempo e Arquiteta do Destino do Universo. </p>
+        
+        </div>
+            <div class="w3-third"style="width:33%;border:1px solid black"><center><img class="" style="width:50% ;height: 35%;" src="MortalKombatX/inimigoDark.gif" alt=""></center>
+            <h2 class="w3-card w3-center">Dark Kahn</h2>
+            <p>Dark Kahn é um monstruoso ser de pura Ira, criado a partir da fusão acidental de Darkseid e Shao Kahn.</p>
+        </div>
+        </div>
+        
+    
+
+            <!--fim dos inimigos-->
+        <!--inicio das musicas-->
+        
+        
+            <h3 id="musica"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Trilha Sonora:</h3>
+            1.	"Taste Of Things To Come"  
+2.	"Goodbye (Demo)"  	
+3.	"Juke Joint Jezebel (Giorgio Moroder Metropolis Mix)" 
+4.	"Unlearn (Josh Wink's Live Mix)"  	
+5.	"Control (Juno Reactor Instrumental)"  	
+6.	"Halcyon + On + On"  	
+7.	"Utah Saints Take On The Theme From Mortal Kombat"  	
+8.	"The Invisible"  	
+9.	"Zero Signal"  	
+10.	"Burn"  	
+11.	"Blood & Fire (Out Of The Ashes Mix)"  	
+12.	"I Reject"  	Bile	2:47
+13.	"Twist The Knife (Slowly)"  	
+14.	"What U See/We All Bleed Red"  	
+15.	"Mortal Kombat (Techno-Syndrome 7" Mix)"  	
+16.	"Goro Vs. Art"  	
+17.	"Demon Warriors/Final Kombat"  
+    </div>   
+</main>
+</body>
+</html>

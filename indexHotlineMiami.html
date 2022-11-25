@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wiki games Hotline Miami</title>
+<style>
+   
+*{
+    margin:0;
+    padding:0;
+}
+#check{
+    display: none;
+}
+#icone{
+    cursor: pointer;
+    
+    position:absolute;
+    z-index: 1;
+}
+.barra{
+    background-color: #333;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition:all .2s linear ;
+    left: -300px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+    nav a{
+        text-decoration: none;
+    }
+    .link{
+        background-color: #494950;
+        padding:20px;
+        font-family: 'Arial';
+        font-size: 12pt;
+        transition: all .2s linear;
+        color:#f4f4f9;
+        border-bottom: 2px solid #222;
+        opacity: 0;
+        margin-top:200px ;
+    }
+    .link:hover{
+        background-color: rgb(214, 228, 20);
+    }
+    #check:checked ~ .barra{
+        transform:translateX(300px)
+    }
+    #check:checked ~ .barra nav a .link{
+       opacity: 1;
+       margin-top: 0;
+       transition-delay: .2s;
+    }
+
+    body{
+    background-image: url(Hotline/HMwallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    padding: 1.5%;
+    
+    }
+    #main{
+        background: rgba(252, 250, 250, 0.70) ;width:100%;;
+    }
+</style>
+
+
+</head>
+<!--inicio da side-bar-->
+<body>
+    <div class="w3-container ">
+    <input type="checkbox" id="check">
+    <label id="icone" for="check"><img src="Hotline/bars.png"></label>
+    <div class="barra">
+        <nav>
+            <a href="file:///C:/Users/pedro/OneDrive/Documentos/Luciene/site/Home.html#"><div class="link">Voltar</div></a>
+            <a href="#sobre"><div class="link">sobre</div></a>
+            <a href="#informações"><div class="link">informações</div></a>
+            <a href="#personagens"><div class="link">personagens</div></a>
+            <a href="#locais"><div class="link">locais</div></a>
+            <a href="#inimigos"><div class="link">Inimigos</div></a>
+            <a href="#musica"><div class="link">Trilha sonora</div></a>
+        </nav>
+    </div>
+    <!--fim da side-bar-->
+    <!--logo-->
+<img style="width:20% ;height:40%;margin-top:0; padding-left: 35px;" src="Hotline/logoHotline.png" alt="">
+<!--logo-->
+</div>
+<main id="main">
+    
+    <h1 class="w3-center">Hotline Miami 2</h1>
+    <!--primeira imagem-->
+    <center><img class=""style="border: 0.75px solid yellow;" src="Hotline/HotlineMiami.jpg" alt=""></center>
+    <div class="w3-panel w3-border-top w3-border-bottom w3-border-black">
+        <!--inicio do sobre-->
+        <h3 id="sobre"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">sobre:</h3>
+
+        
+        <div class="w3-row">
+            <div class="w3-col "style="width:45%"><h3>Hotline Miami é um jogo de ação de alta octanagem transbordando de 
+                brutalidade crua, tiroteio duro e combate corpo a corpo esmagador. Situado em uma alternativa de Miami de 1989,
+                 você assumirá o papel de um misterioso anti-herói em uma fúria assassina contra o submundo sombrio a mando de vozes 
+                 em sua secretária eletrônica. Logo você se encontrará lutando para entender o que está acontecendo e por que você está 
+                 propenso a esses atos de violência. A sequência/prequela da Hotline Miami, Hotline Miami 2: Wrong Number foi 
+                lançada em 10 de março de 2015, apresenta 12 novos personagens jogáveis, bem como novas armas e níveis e um editor de níveis.</h3></div>
+            <div class="w3-col" style="width:55%"><center><img style="width: 50%;"src="HotilinhaMiami.png" alt=""></center></div>
+        </div>
+        <br>
+        <br>
+          <!--fim do sobre-->
+          <!--inicio das informações-->
+          <h3 id="informações"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">informações:</h3>
+        
+          <table class="w3-table-all">
+            <tr>
+              <th style="background-color: red;width:33%">Ano de lançamento</th>
+              <th style="background-color: red;width:33%">Genero</th>
+              <th style="background-color: red;width:33%">Plataformas</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>shoot 'em up</td>
+                <td >Xbox One</td>
+                
+              </tr>
+              <tr>
+                  <td>26 de fevereiro de 2016</td>
+                  <td>Ação</td>
+                  <td>Computador</td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td>Single Player</td>
+                  <td>PlayStation 4</td>
+              </tr>
+            </table>
+            <!--fim das informaçoes-->
+            <!--inicio dos personagens -->
+            <h3 id="personagens"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Personagens:</h3>
+            <div>
+                <div class="w3-row w3-row-padding"> 
+                    <h2>Alex And Ash:</h2>
+                    <div class="w3-col" style="width:10%;">
+                        <img style="width:100%;"src="Hotline/AlexAndAshHM.png" alt="">
+                    </div>
+                    <div class="w3-rest"style="width:65%;padding-left:15%">
+                        <p>
+                            Alex Davis, também conhecido como Swan #1, é um personagem jogável em Hotline Miami 2: Wrong Number. Ela é um membro doThe Fans, e é o terceiro personagem
+                             de fã jogável da facção ao lado de Ash, sendo desbloqueado após a conclusão deMoving Up. Ash Davis, também conhecido como Swan #2, é um personagem jogável em Hotline Miami 2: 
+                            Wrong Number. Ele é um membro do The Fans, e é o terceiro personagem de fã jogável ao lado de Alex, e é desbloqueado após a conclusão de Moving Up.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w3-row"> 
+                    <h2>Tony:</h2>
+                    <div class="w3-col" style="width:10.5%;">
+                        <img style="width:70%;"src="Hotline/TonyHM.png" alt="">
+                    </div>
+                    <div class="w3-rest"style="width:65%;padding-left:15%">
+                        <p>
+                            Tony, também conhecido comoThe Tiger, é um personagem 
+                jogável emHotline Miami 2: Wrong Number. Ele é um membro doThe Fans, e é o segundo fã jogável e é desbloqueado após a conclusão do nívelDown Under.
+
+                Junto com a máscara, ele também usa uma camiseta preta, juntamente com armaduras corporais bronzeadas e 
+                joelheiras, bem como calças de combate cinzas e botas de cowboy com esporas. Suas mãos ostentam luvas pretas e juntas pontiagudas.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w3-row w3-row-padding"> 
+                        <h2>Son:</h2>
+                        <div class="w3-col" style="width:10.5%;">
+                            <img style="width:65%;"src="Hotline/SonHM.png" alt="">
+                        </div>
+                        <div class="w3-rest"style="width:65%;padding-left:15%">
+                            <p>
+                                O Filhoé um personagem jogável em Hotline Miami 2: Wrong Number.
+                 Ele é o atual líder da máfia russa e assumiu o cargo depois que seu pai se 
+                matou duranteseu encontro com Jacketna Hotline Miami.
+
+                Ele é o protagonista da maior parte do Ato 6: Catástrofe, servindo como o 
+                personagem final jogável emHotline Miami 2: Wrong Number. Ele também serve como o principal antagonista do enredo de The Fans.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w3-row w3-row-padding"> 
+                            <h2>Corey:</h2>
+                            <div class="w3-col" style="width:10.5%;">
+                                <img style="width:100%;"src="Hotline/CoreyHM.png" alt="">
+                            </div>
+                            <div class="w3-rest"style="width:65%;padding-left:15%">
+                                <p>
+                                    Corey, também conhecido como The Zebra, é um personagem jogável em 
+                    Hotline Miami 2: Wrong Numbere é o primeiro membro jogável dos fãs. Corey tem a capacidade de se esquivar do rolo e usa uma 
+                    jaqueta do Miami Dolphins (em comparação com a possível jaqueta de escola do ensino médio deJacket).  
+
+                                </p>
+                            </div>
+                    </div>
+
+                    <div class="w3-row w3-row-padding"> 
+                            <h2>Jacket:</h2>
+                            <div class="w3-col" style="width:10.5%;">
+                                <img style="width:70%;"src="Hotline/JacketHM.png" alt="">
+                            </div>
+                            <div class="w3-rest"style="width:65%;padding-left:15%">
+                                <p>
+                                    Jacket, também conhecido nos arquivos do jogo comoPlayerouP, é o principal protagonista e personagem do jogador de Hotline Miami,
+                     e um personagem secundário em Hotline Miami 2: Wrong Number. Ele recebeu esse apelido de fã por causa de sua jaqueta letterman distinta. O desenvolvedor Dennis Wedinusou o apelido
+                      em váriasentrevistas, e naHotline Miami 2todos os ativos relacionados a ele o referem com esse pseudônimo.
+                    Ao longo do primeiro jogo, ele veste váriasmáscaras de animais 
+                    (levando a outros apelidos de fãs) e realiza uma série de assassinatos brutais em resposta a mensagens enigmáticas deixadas em sua secretária eletrônica.
+                                </p>
+                            </div>
+                    </div>
+
+            </div>
+           
+            <br>
+            <!--fim dos personagens--> 
+            <!--inicio das areas-->
+            
+            <h3 id="locais"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Locais:</h3>
+            <table class="w3-table-all">
+                <tr>
+                    <th style="background-color: red; width:33%;">nome</th>
+                    <th style="background-color: red;width:33%;">mapa</th>
+                    <th style="background-color: red;width:33%;">descrição</th>
+                  </tr>
+                  <tr>
+                    <td><img style="width:25% ;" src="DownUnder.png" alt=""></td>
+                    <td><img style="width:50%;" src="DownUndermapHM.png" alt=""></td>
+                    <td style="width:25%; ">Down Under é a primeira cena deHotline Miami 2: Wrong Number, que se passa em 31 de outubro de 1991. É a primeira cena comos fãs, que estão dando uma festa de Halloween em seu esconderijo.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><img style="width:25% ;" src="Hotline/MovingUpHM.png" alt=""></td>
+                    <td><img style="width:50%;" src="Hotline/MovingUpMapHM.png" alt=""></td>
+                    <td style="width:25%; ">Moving Up é a sexta cena deHotline Miami 2: Wrong Number, que se passa no dia 2 de dezembro de 1991, a partir das 22:11. Embora seja a segunda missão jogável do Fan, na verdade ocorre apósa Execução (datada em ou logo após22 de novembro), tornando-se seu terceiro trabalho cronologicamente.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><img style="width:25% ;" src="Hotline/IntoThePitHM.png" alt=""></td>
+                    <td><img style="width:50%;" src="Hotline/IntoThePitmapHM.png" alt=""></td>
+                    <td style="width:25%; ">Into the Pit é a 10ª cena deHotline Miami 2: Wrong Number. É a segunda cena do Ato 3: Clímax, e é a quarta cena em queos fãssão jogáveis. Acontece no dia 9 de dezembro de 1991.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><img style="width:25% ;" src="Hotline/DeathWishHM.png" alt=""></td>
+                    <td><img style="width:50%;" src="Hotline/DeathWishmapHM.png" alt=""></td>
+                    <td style="width:25%; ">Deat Whish é a 12ª cena deHotline Miami 2: Número Erradoe a última do enredo de The Fans. Coincidindo com a cena final, Apocalipse, o nível ocorre em 20 de dezembro de 1991.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><img style="width:25% ;" src="Hotline/Seizures.png" alt=""></td>
+                    <td><img style="width:50%;" src="Hotline/SeizuresMapHM.png" alt=""></td>
+                    <td style="width:25%; ">Seizure é a 21ª cena de Hotline Miami 2: Número Erradoe a primeira do enredode O Filho. Está situado em 18 de novembro de 1991. </td>
+                    
+                  </tr>
+                    
+            </table>
+            <!--fim das areas-->
+            <!--inicio dos inimigos-->
+            <h3 id="inimigos"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">inimigos:</h3>
+            <div class="w3-row w3-third"style="width:33%;border:1px solid black"><center><img style="width:20% ; height:20%" class="" src="Hotline/EnemyMafiaRussianHM.png" alt=""></center>
+                <h2 class="w3-card w3-center">Mafioso Russo</h2>
+                <p>A Políciado MPD é uma facção inimiga apresentada em Hotline Miami e Hotline Miami 2: Wrong Number. Eles agem e funcionam da mesma forma que os mafiosos russos.</p>
+                
+            </div>
+            <div class="w3-row w3-third"style="width:33%;border:1px solid black"><center><img style="width:30% ; height:30%" class="" src="Hotline/bikerHM.png" alt=""></center>
+                <h2 class="w3-card w3-center">Biker</h2>
+                <p>Biker aparece como o inimigo chefe de Part Two: Questions, onde ele é encontrado no final do capítulo sete.</p>
+            
+            </div>
+            <div class="w3-row w3-third"style="width:33%;border:1px solid black"><center><img style="width:50% ; height:50%" class="" src="Hotline/PoliceHM.png" alt=""></center>
+                <h2 class="w3-card w3-center">Policial</h2>
+                <p>A Polícia do MPD é uma facção inimiga apresentada em Hotline Miami e Hotline Miami 2: Wrong Number. Eles agem e funcionam da mesma forma que os mafiosos russos.</p>
+            
+            </div>
+        </div>
+            
+           
+            <!--fim dos inimigos--> 
+            <!--inicio das musicas-->
+            
+            
+            <h3 id="musica"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Trilha Sonora:</h3>
+            01-Silver Lights - 
+            02-A New Morning -
+            03-Crush -
+            04-Daisuke (feat. Shelby Cinca) -
+            05-Turf -
+            06-Musikk per automatikk -
+            07-	Crystals-
+            08-hydrogen -
+            09-Paris -
+            10-Release -
+            11-	Electric Dreams-
+            12-Miami Disco	 -
+            13-Vengeance -
+            14-	Knock Knock -
+            15-Flatline	-
+            16-Inner Animal -
+            17-	Inner Animal -
+            18-To the Top -
+            19-Horse Steppin -
+            20-Deep Cover -
+            21-Ms Minnie-
+            23-Hotline Miami Theme -
+            24-Escape from Midwich Valley-
+            25-You Are The Blood -
+            26-Interlude-
+            27-The Rumble-
+            28-Richard-
+            29-	Ghost-
+            30-Disturbance.
+    </div>   
+</main>
+</body>
+</html>
+              

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duvidas</title>
+    <link rel="stylesheet" href="Duvidas/menuHome.css">
+    <link rel="stylesheet" href="Duvidas/logo.css">
+    <link rel="stylesheet" href="Duvidas/duvidas.css">
+</head>
+<body>
+   <div class="sreto">
+      <h5>Com duvidas? Fica tranquilo(a) que já serão esclarecidas:</h5>
+      <h1>Propósito da myGames:</h1>
+      <p>.</p>
+      <p>.</p>
+      <p>Mostrar Jogos tanto de PC quanto para Console</p>
+      <p>e mostrar suas informações como:</p>
+      <p>Data de lançamento do game</p>
+      <p>Genêro</p>
+      <p>Personagens</p>
+      <p>Trilhas Sonoras do game</p>
+      <p>e Inimigos</p>
+
+      <h1>Propósito da HOME:</h1>
+      <p>.</p>
+      <p>.</p>
+      <p>Mas é claro que é para que você se sinta em casa, e também é o começo</p>
+      <p>aonde você pode ver alguns jogos e sues lançamentos</p>
+
+
+      <h1>Propósito da aba Conosole:</h1>
+      <p>.</p>
+      <p>.</p>
+      <p>Você deve estar se perguntando porque alguns dos jogos que estão no Console não estão</p>
+      <p>não estão na aba PC sendo que muitos deles agora são compátiveis com Windows e MacOS, talvez até mesmo</p>
+   <p>para android. A resposta é muito simples, na aba Console estão os jogos que forão lançados para console primeiro</p>
+
+      <h1>Propósito da aba PC:</h1>
+      <p>.</p>
+      <p>.</p>
+      <p>Como vimos anteriormente está também é usada paramostrar a plataforma</p>
+      <p>em que teve o seu tão esperado lançamento</p>
+
+
+
+      <h1>Propósito da aba Suporte:</h1>
+      <p>.</p>
+      <p>.</p>
+      <p>Está serve para que você possa entrar em contato conosco via conta gmail</p>
+      <p>você pode mandar:</p>
+      <p>sugestôes</p>
+      <p>alertarnos de problemas como bugs no site</p>
+      <p>ou caso tenha alguma duvida que não foi respondida</p>
+      <p>Mande algo que seja relevante caso o contrario iremos ignora-lo</p>
+      <p>entre vários outros</p>
+
+      <h1>Propósito da aba Duvidas</h1>
+      <p>.</p>
+      <p>.</p>
+      <p>Retirar toda e qualquer tipo de duvidaque você tenha sobre nosso site</p>
+      <p>.</p>
+      <p>Bom espero ter ajudado, até a próxima</p>
+
+   </div>
+       <!--Inicio Menu-->
+       <nav id="fixar">
+         <!--inicio barra-->
+             <div class="person">MyGames
+             </div>
+         <!--fim barra-->
+         <div class="navegation">
+             <ul>
+                 <li class="list">
+                    <a href="file:///C:/Users/pedro/OneDrive/Documentos/Luciene/site/Home.html#">
+                       <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                       <span class="title">Home</span>
+                    </a>
+                 </li>
+             
+             
+                 <li class="list">
+                    <a href="file:///C:/Users/pedro/OneDrive/Documentos/Luciene/site/Console.html">
+                       <span class="icon"><ion-icon name="game-controller-outline"></ion-icon></ion-icon></span>
+                       <span class="title">Console</span>
+                    </a>
+                 </li>
+             
+             
+                 <li class="list">
+                    <a href="file:///C:/Users/pedro/OneDrive/Documentos/Luciene/site/PC.html#">
+                       <span class="icon"><ion-icon name="tv-outline"></ion-icon></span>
+                       <span class="title">PC</span>
+                    </a>
+                 </li>
+             
+             
+                 <li class="list">
+                    <a href="file:///C:/Users/pedro/OneDrive/Documentos/Luciene/site/Suporte.html">
+                       <span class="icon"><ion-icon name="at-outline"></ion-icon></span>
+                       <span class="title">Suporte</span>
+                    </a>
+                 </li>
+             
+             
+                 <li class="list active">
+                    <a href="file:///C:/Users/pedro/OneDrive/Documentos/Luciene/site/Duvidas.html">
+                       <span class="icon"><ion-icon name="help-circle-outline"></ion-icon></span>
+                       <span class="title">Duvidas</span>
+                    </a>
+                 </li>
+             </ul>
+         </div>
+        </nav>
+     <!--Fim Menu-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+       const list = document.querySelectorAll('.list');
+       function activeLink(){
+          list.forEach((item) =>
+          item.classList.remove('active'));
+          this.classList.add('active');
+    }
+          list.forEach((item) =>
+          item.addEventListener('click', activeLink));
+    </script>
+</body>
+</html>

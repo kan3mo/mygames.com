@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wiki games</title>
+<style>
+   
+*{
+    margin:0;
+    padding:0;
+}
+#check{
+    display: none;
+}
+#icone{
+    cursor: pointer;
+    
+    position:absolute;
+    z-index: 1;
+}
+.barra{
+    background-color: #333;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition:all .2s linear ;
+    left: -300px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+    nav a{
+        text-decoration: none;
+    }
+    .link{
+        background-color: #494950;
+        padding:20px;
+        font-family: 'Arial';
+        font-size: 12pt;
+        transition: all .2s linear;
+        color:#f4f4f9;
+        border-bottom: 2px solid #222;
+        opacity: 0;
+        margin-top:200px ;
+    }
+    .link:hover{
+        background-color: rgb(170, 91, 91);
+    }
+    #check:checked ~ .barra{
+        transform:translateX(300px)
+    }
+    #check:checked ~ .barra nav a .link{
+       opacity: 1;
+       margin-top: 0;
+       transition-delay: .2s;
+    }
+
+    body{
+    background-image: url(ScarletNexus/fundoS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    padding: 1.5%;
+    
+    }
+    #main{
+        background: rgba(252, 250, 250, 0.70) ;width:100%;;
+    }
+</style>
+
+
+</head>
+<!--inicio da side-bar-->
+<body>
+    <div class="w3-container ">
+    <input type="checkbox" id="check">
+    <label id="icone" for="check"><img src="ScarletNexus/bars.png"></label>
+    <div class="barra">
+        <nav>
+            <a href="file:///C:/Users/pedro/OneDrive/Documentos/Luciene/site/Home.html#"><div class="link">Voltar</div></a>
+            <a href="#sobre"><div class="link">sobre</div></a>
+            <a href="#informações"><div class="link">informações</div></a>
+            <a href="#personagens"><div class="link">personagens</div></a>
+            <a href="#locais"><div class="link">locais</div></a>
+            <a href="#inimigos"><div class="link">Inimigos</div></a>
+            <a href="#musica"><div class="link">Trilha sonora</div></a>
+        </nav>
+    </div>
+    <!--fim da side-bar-->
+    <!--logo-->
+<img style="width:20% ;height:40%;margin-top:0; padding-left: 35px;" src="ScarletNexus/Snexus.webp" alt="">
+<!--logo-->
+</div>
+<main id="main">
+    
+    <h1 class="w3-center">Scarlet Nexus</h1>
+    <!--primeira imagem-->
+    <center><img class=""style="border: 0.75px solid yellow;" src="" alt=""></center>
+    <div class="w3-panel w3-border-top w3-border-bottom w3-border-black">
+        <!--inicio do sobre-->
+        <h3 id="sobre"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">sobre:</h3>
+
+        
+        <div class="w3-row">
+            <div class="w3-col "style="width:45%"><h3>se passa na fictícia cidade de New Himuka,
+                 numa realidade paralela em que o mundo está sendo ameaçado por seres conhecidos como Criaturas.
+                 Caindo do céu graças a um fenômeno batizado como O Cinturão da Extinção, a sociedade precisou se refugiar em lugares protegidos, mas os cercos não foram a única maneira encontrada pelo povo para combater a ameaça.
+
+                Conforme algumas pessoas passaram a desenvolver poderes psiônicos e a habilidade de conectar suas mentes uns aos outros, formou-se um o que foi chamado de Força de Supressão de Criaturas,
+                 um grupo de elite com soldados capazes de eletrocutar inimigos, congelá-los, ficar invisíveis, etc.
+                 Nós seremos um deles e no início da aventura teremos a possibilidade de escolher entre Yuito Sumeragi e Kasane Randall, novatos que foram convocados pela FSC por controlarem o poder da telecinese (chamado no jogo de psicocinese).</h3></div>
+            <div class="w3-col" style="width:55%"><center><img style="width: 50%;"src="sn.png" alt=""></center></div>
+        </div>
+        <br>
+        <br>
+          <!--fim do sobre-->
+          <!--inicio das informações-->
+          <h3 id="informações"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">informações:</h3>
+        
+          <table class="w3-table-all">
+            <tr>
+              <th style="background-color: rgb(170, 91, 91);width:33%">Ano de lançamento</th>
+              <th style="background-color: rgb(170, 91, 91);width:33%">Genero</th>
+              <th style="background-color: rgb(170, 91, 91);width:33%">Plataformas</th>
+            </tr>
+            <tr>
+              <td>29 de setembro de 2017</td>
+              <td>Romance</td>
+              <td >Xbox One</td>
+              
+            </tr>
+            <tr>
+                <td></td>
+                <td> Ação</td>
+                <td>Computador</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Aventura</td>
+                <td>PlayStation 4</td>
+            </tr>
+
+            </table>
+            <!--fim das informaçoes-->
+            <!--inicio dos personagens -->
+            <h3 id="personagens"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Personagens:</h3>
+            <div>
+                <div class="w3-row w3-row-padding"> 
+                    <h2>Yuito Sumeragi:</h2>
+                    <div class="w3-col" style="width:15%;">
+                        <img style="width:70%;"src="ScarletNexus/yuito.png" alt="">
+                    </div>
+                    <div class="w3-rest"style="width:65%;padding-left:15%">
+                        <p>
+                            Yuito Sumeragi é dos mais novos recrutas da Força de Supressão de Criaturas. Ele é o segundo filho da família Sumeragi, fundadores de New Himuka (local onde o jogo se passa).
+                             Ele é descrito como um jovem brilhante, com espirito positivo e uma mente resiliente.
+                             Yuito se juntou a Força de Supressão de Criaturas após ser salvo de um ataque de uma Criatura (os monstros do jogo).
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w3-row"> 
+                    <h2>Kasane Randall:</h2>
+                    <div class="w3-col" style="width:15%;">
+                        <img style="width:85%;"src="ScarletNexus/kanase.png" alt="">
+                    </div>
+                    <div class="w3-rest"style="width:65%;padding-left:15%">
+                        <p>
+                            Kasane é uma orfã que perdeu seus pais ainda criança, durante um ataque das Criaturas.
+                             Ela foi adotada pela poderosa família Randall aos doze anos, e hoje é uma super guerreira de elite detentora de habilidades de combate insanas.
+                              Kasane e Yuito receberão suporte de vários membros do grupo no decorrer de suas jornadas, incluindo Gemma Garrison, Luka Travers e Tsugumi Nazar.
+                             Concluir ambas as campanhas fechará o ciclo narrativo do game.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w3-row w3-row-padding"> 
+                        <h2>Hanabi Ichijo:</h2>
+                        <div class="w3-col" style="width:15%;">
+                            <img style="width:85%;"src="ScarletNexus/hanabi.webp" alt="">
+                        </div>
+                        <div class="w3-rest"style="width:65%;padding-left:15%">
+                            <p>
+                                Uma garota que é sempre brilhante e enérgica. Ela era amiga de infância de Yuito e é uma trabalhadora que faz tudo da melhor maneira possível.
+                                 Ela odeia a injustiça e tende a agir antes de pensar, precipitando-se nas coisas.
+                                 Por outro lado, ela é extremamente gentil e tende a suprimir seus verdadeiros sentimentos para não incomodar as pessoas ao seu redor.
+                                Ela originalmente frequentou a mesma escola que Yuito, mas mudou-se para a academia de treinamento depois que foi observada pela OSF.
+                                Recrutas e voluntários recrutados são treinados em instalações diferentes, então os dois não se viram por um tempo, mas se reuniram quando se tornaram membros oficiais da OSF.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w3-row w3-row-padding"> 
+                            <h2>Nagi Karman:</h2>
+                            <div class="w3-col" style="width:15%;">
+                                <img style="width:85%;"src="ScarletNexus/nagi.png" alt="">
+                            </div>
+                            <div class="w3-rest"style="width:65%;padding-left:15%">
+                                <p>
+                                    Um menino muito bem-humorado que se entusiasma facilmente e é sempre a alma da festa.
+                                     Ele conhece Yuito desde que se conheceram na academia de treinamento, e eles superaram o intenso treinamento junto com o forte desejo de ingressar na OSF.
+                                      Ele sabe quem é a família de Yuito, mas não o trata de forma diferente, e agora é seu melhor amigo.
+                                    Ele é um fanboy que gosta da qualidade de estrela da OSF, mas tem um passado sério da classe trabalhadora. Ele fica exasperado com a seriedade de Yuito, mas tem uma queda por ele, então eles estão sempre juntos.
+                                </p>
+                            </div>
+                    </div>
+
+                    <div class="w3-row w3-row-padding"> 
+                            <h2>Tsugumi Nazar:</h2>
+                            <div class="w3-col" style="width:15%;">
+                                <img style="width:85%;"src="ScarletNexus/tsugumi.webp" alt="">
+                            </div>
+                            <div class="w3-rest"style="width:65%;padding-left:15%">
+                                <p>
+                                    Um membro OSF introvertido e tímido. Ela não é boa em se comunicar e seu extremo nervosismo ao falar com as pessoas a faz falar com hesitação. Ela é uma pessoa quieta, mas não é tímida, e dirá o que precisa ser dito com severidade.
+                                    Ela também é competitiva. Ela mantém a calma na batalha, então ela é uma boa soldada.
+                                    Ela passa muito tempo sozinha e não tem muitos amigos, mas quando faz um, ela os considera queridos. Kagero Donne, com quem ela treinou, é um dos poucos amigos a quem ela mostra seu verdadeiro eu.
+                                    
+                                    Seu hobby é jardinagem.
+                                </p>
+                            </div>
+                    </div>
+
+            </div>
+           
+            <br>
+            <!--fim dos personagens--> 
+            <!--inicio das areas-->
+            
+            <h3 id="locais"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Locais:</h3>
+            <table class="w3-table-all">
+                <tr>
+                    <th style="background-color: rgb(170, 91, 91); width:33%;">nome</th>
+                    <th style="background-color: rgb(170, 91, 91);width:33%;">mapa</th>
+                    <th style="background-color: rgb(170, 91, 91);width:33%;">descrição</th>
+                  </tr>
+                  <tr>
+                    <td><h3>Kukushiba</h3></td>
+                    <td><img style="width:50%;" src="" alt=""></td>
+                    <td style="width:25%; ">Cidade Mercante Deserta. Kikuchiba costumava servir como conexão com Togetsu.
+                         A infraestrutura da cidade
+                         foi destruída em um ataque dos Outros há cerca de cinco anos, então isso é tudo o que resta.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><h3>Mizugawa</h3></td>
+                    <td><img style="width:50%;" src="" alt=""></td>
+                    <td style="width:25%; ">O Projeto Capital Fantasma. Você pode observar todo o distrito de desenvolvimento a partir
+                         de um determinado ponto elevado encontrado no distrito de construção. É o melhor lugar para assistir ao pôr do sol,
+                         então não deixe de conferir se precisar fazer uma pausa e refletir.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><h3>Esconderijo</h3></td>
+                    <td><img style="width:50%;" src="" alt=""></td>
+                    <td style="width:25%; ">O esconderijo é um local para descanso e relaxamento.
+                         O esconderijo costumava ser a unidade de evacuação da Família Sumeragi ou um esconderijo da Família Randall,
+                          mas mais tarde foi convertido em um esconderijo para os membros ativos da OSF. No esconderijo, você pode viajar
+                           para cá quando quiser, basta abrir o mapa-múndi. Retornar ao esconderijo irá recuperar seu HP.
+                         Mas observe que você não poderá voltar aqui se o movimento do local for limitado.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><h3>Metrô Abandonado</h3></td>
+                    <td><img style="width:50%;" src="" alt=""></td>
+                    <td style="width:25%; ">Nada além de uma estação cheia de monstros.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><h3>Rodovia Kunad</h3></td>
+                    <td><img style="width:50%;" src="" alt=""></td>
+                    <td style="width:25%; ">Monstros e veículos Abandonados, preciso dizer mais?s</td>
+                    
+                  </tr>
+                    
+            </table>
+            <!--fim das areas-->
+            <!--inicio dos inimigos-->
+            <h3 id="inimigos"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">inimigos:</h3>
+            <div class="w3-row w3-third"style="width:33%;border:1px solid black"><center><img class="" style="width:30%"src="ScarletNexus/y1.gif" alt=""></center>
+                <h2 class="w3-card w3-center">???</h2>
+                <p>De origem desconhcida este é um dos primeiros boss que você enfrenta no jogo</p>
+                
+            </div>
+                <div class="w3-row w3-third"style="width:33%;border:1px solid black"><center><img class=""style="width:30%" src="ScarletNexus/y2.gif" alt=""></center>
+                <h2 class="w3-card w3-center">Inceto Gigante</h2>
+                <p>Este não é considerado um boss porém pode atrapalhar o nosso querido Protagonista</p>
+            
+            </div>
+                <div class="w3-row w3-third"style="width:33%;border:1px solid black"><center><img style="width:40%" class="" src="ScarletNexus/y3.gif" alt=""></center>
+                <h2 class="w3-card w3-center">cerra patas</h2>
+                <p>Primeiros monstros que você enfrenta no jogo</p>
+            
+            </div>
+        </div>
+            
+           
+            <!--fim dos inimigos--> 
+            <!--inicio das musicas-->
+            
+            
+            <h3 id="musica"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Trilha Sonora:</h3>
+            CD1
+1. Red Strings 
+2. Battle 1 
+3. Invasion 
+4. Other 
+5. Yuito’s Headache 
+6. Foreboding Sign 
+7. Battle 2 
+8. Yuito’s Past 
+9. Omen 
+10. A Secret of New Himuka 
+11. Enlistment 
+12. Nostalgia 
+13. I missed you… 
+14. My Buddies 
+15. SCARLET GUARDIAN 
+16. Omikuji 
+17. 50 Years Later 
+18. Yuito’s Amnesia 
+19. Karen’s Plot 
+20. Battle 4 
+21. The Plan 
+22. Tension 
+23. Keep Me on My Toes 
+24. Battle 3
+25. Threats 
+26. The Traitor 
+27. I Feel Suspicious 
+28. The Truth 
+29. A Bad Feeling 
+30. Battle 6 
+31. You Were Kind 
+32. The Trailer of SCARLET NEXUS 
+
+CD2
+1. Sayonara My Buddy 
+2. The Reunion 
+3. Battle 8 
+4. Karen’s Madness 
+5. Kyoka’s Purpose 
+6. Impatient 
+7. The Sumeragi Family 
+8. Memories of Alice 
+9. Kyoka’s Honest Thoughts 
+10. Heartrending Cry of Future Yuito 
+11. Memories 
+12. Tell Me What’s Happened 
+13. Battle 7 
+14. Battle 5 
+15. A Plot 
+16. Last Night 
+17. The Secret 
+18. Naomi Stranged 
+19. The Hospital’s Secrets 
+20. Kagero’s Identity 
+21. Yuito Needs Ampoule 
+22. Alice’s Childhood 
+23. Togetsu 
+24. Enthusiasm 
+25. Message 
+26. Battle 9 
+27. Kunad Gate 
+28. Yuito & Kasane 
+29. Red Criminal (Inst Ver.) 
+
+    </div>   
+</main>
+</body>
+</html>
+              

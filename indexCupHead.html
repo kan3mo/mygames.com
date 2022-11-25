@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wiki games</title>
+<style>
+   
+*{
+    margin:0;
+    padding:0;
+}
+#check{
+    display: none;
+}
+#icone{
+    cursor: pointer;
+    
+    position:absolute;
+    z-index: 1;
+}
+.barra{
+    background-color: #333;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition:all .2s linear ;
+    left: -300px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+    nav a{
+        text-decoration: none;
+    }
+    .link{
+        background-color: #494950;
+        padding:20px;
+        font-family: 'Arial';
+        font-size: 12pt;
+        transition: all .2s linear;
+        color:#f4f4f9;
+        border-bottom: 2px solid #222;
+        opacity: 0;
+        margin-top:200px ;
+    }
+    .link:hover{
+        background-color: rgb(214, 228, 20);
+    }
+    #check:checked ~ .barra{
+        transform:translateX(300px)
+    }
+    #check:checked ~ .barra nav a .link{
+       opacity: 1;
+       margin-top: 0;
+       transition-delay: .2s;
+    }
+
+    body{
+    background-image: url(CupHead/backCup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    padding: 1.5%;
+    
+    }
+    #main{
+        background: rgba(252, 250, 250, 0.70) ;width:100%;;
+    }
+</style>
+
+
+</head>
+<!--inicio da side-bar-->
+<body>
+    <div class="w3-container ">
+    <input type="checkbox" id="check">
+    <label id="icone" for="check"><img src="CupHead/bars.png"></label>
+    <div class="barra">
+        <nav>
+            <a href="file:///C:/Users/pedro/OneDrive/Documentos/Luciene/site/Home.html#"><div class="link">Voltar</div></a>
+            <a href="#sobre"><div class="link">sobre</div></a>
+            <a href="#informações"><div class="link">informações</div></a>
+            <a href="#personagens"><div class="link">personagens</div></a>
+            <a href="#locais"><div class="link">locais</div></a>
+            <a href="#inimigos"><div class="link">Inimigos</div></a>
+            <a href="#musica"><div class="link">Trilha sonora</div></a>
+        </nav>
+    </div>
+    <!--fim da side-bar-->
+    <!--logo-->
+<img style="width:20% ;height:40%;margin-top:0; padding-left: 35px;" src="CupHead/logoCup.png" alt="">
+<!--logo-->
+</div>
+<main id="main">
+    
+    <h1 class="w3-center">CupHead</h1>
+    <!--primeira imagem-->
+    <center><img class=""style="border: 0.75px solid yellow;" src="CupHead/CupHead.jpg" alt=""></center>
+    <div class="w3-panel w3-border-top w3-border-bottom w3-border-black">
+        <!--inicio do sobre-->
+        <h3 id="sobre"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">sobre:</h3>
+
+        
+        <div class="w3-row">
+            <div class="w3-col "style="width:45%"><h3>Nas fictícias Ilhas Inkwell, Cuphead e seu irmão Mugman são duas crianças divertidas que vivem sob
+                o olhar atento de Elder Kettle. Contra as advertências do ancião, os irmãos entram no Devil's Casino e começam a jogar dados.
+                 Quando eles estão em uma sequência de vitórias, o próprio Diabo se oferece para aumentar as apostas. Se Cuphead e Mugman puderem
+                  ganhar mais um rolo, eles receberão todo o dinheiro do cassino; se não, o diabo levará suas almas. Cuphead perde revirando os
+                   olhos de cobra, e ele e Mugman imploram por misericórdia. O Diabo faz um acordo com eles: colete os "contratos de almas" que
+                    significam sua propriedade das almas de seus devedores fugitivos até a meia-noite do dia seguinte, e ele pode deixá-los
+                     manter as deles. Eles visitam Elder Kettle, que lhes dá uma poção que lhes permite disparar rajadas de seus dedos para
+                      ajudar em sua busca.</h3></div>
+            <div class="w3-col" style="width:55%"><center><img style="width: 50%;"src="CupHead/imagemCup.jpg" alt=""></center></div>
+        </div>
+        <br>
+        <br>
+          <!--fim do sobre-->
+          <!--inicio das informações-->
+          <h3 id="informações"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">informações:</h3>
+        
+          <table class="w3-table-all">
+            <tr>
+              <th style="background-color: yellow;width:33%">Ano de lançamento</th>
+              <th style="background-color: yellow;width:33%">Genero</th>
+              <th style="background-color: yellow;width:33%">Plataformas</th>
+            </tr>
+            <tr>
+              <td>29 de setembro de 2017</td>
+              <td>Plataforma</td>
+              <td >Xbox One</td>
+              
+            </tr>
+            <tr>
+                <td></td>
+                <td> Shoot 'em up</td>
+                <td>Computador</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Single Player</td>
+                <td>PlayStation 4</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Run and gun</td>
+                <td>Nintendo Switch</td>
+            </tr>
+            
+            </table>
+            <!--fim das informaçoes-->
+            <!--inicio dos personagens -->
+            <h3 id="personagens"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Personagens:</h3>
+            <div>
+                <div class="w3-row w3-row-padding"> 
+                    <h2>CupHead:</h2>
+                    <div class="w3-col" style="width:10%;">
+                        <img style="width:70%;"src="CupHead/fotoCup.webp" alt="">
+                    </div>
+                    <div class="w3-rest"style="width:65%;padding-left:15%">
+                        <p>
+                            Cuphead é o principal protagonista do The Cuphead Show! e irmão gêmeo mais velho de 
+                Mugman."Meu nome é Cuphead, eu gosto de montanhas-russas, cachorros-quentes, tilt-a-whirl, cachorros-quentes, balanços
+                 voadores e cachorros-quentes, e vomitar em montanhas-russas nessa ordem!"
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w3-row"> 
+                    <h2>Mugman:</h2>
+                    <div class="w3-col" style="width:10.5%;">
+                        <img style="width:70%;"src="CupHead/fotoMug.webp" alt="">
+                    </div>
+                    <div class="w3-rest"style="width:65%;padding-left:15%">
+                        <p>
+                            Mugman é o deuteragonista do The Cuphead Show! . Ele é o irmão gêmeo mais novo de 
+                            Cuphead .Mugman é o segundo personagem principal do jogo da vida ele é irmão do cuphead e ninguém liga pra ele.
+                             Ele gosta de caçar borboletas e chorar no banho, ele também é um fã viciado em Mega Man.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w3-row w3-row-padding"> 
+                        <h2>Cala Maria:</h2>
+                        <div class="w3-col" style="width:10.5%;">
+                            <img style="width:65%;"src="CupHead/fotoCala.webp" alt="">
+                        </div>
+                        <div class="w3-rest"style="width:65%;padding-left:15%">
+                            <p>
+                                Cala Maria é uma personagem do The Cuphead Show! , ela é baseada em Cala Maria do 
+                                videogame original. Em sua forma normal, ela tem um polvo morto roxo como cabelo, pele roxa pálida e pálpebras turquesa
+                                . Ela tem lábios finos, nariz pequeno e pontudo, grandes olhos azuis, cílios grandes e sobrancelhas finas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w3-row w3-row-padding"> 
+                            <h2>Diabo:</h2>
+                            <div class="w3-col" style="width:10.5%;">
+                                <img style="width:100%;"src="CupHead/fotoDiabo.webp" alt="">
+                            </div>
+                            <div class="w3-rest"style="width:65%;padding-left:15%">
+                                <p>
+                                    O design do diabo para o The Cuphead Show! permanece mais ou menos o
+                     mesmo, com apenas algumas mudanças estilísticas feitas. Além de agora sempre mostrado como tendo uma cauda,
+                      ​​seu nariz ganhou um rubor vermelho junto com chifres amarelos mais longos em vez de chifres brancos, e as 
+                      íris vermelhas com as quais ele é ocasionalmente retratado no jogo agora são uma parte permanente de seu
+                       design. . Sua pelagem é mais macia e menos desalinhada e também ganhou um leve tom azul. Duas diferenças
+                        mais notáveis ​​​​de sua contraparte no jogo são que ele mostra um pouco de gordura e suas orelhas são um
+                         pouco mais longas e pontiagudas.
+                                </p>
+                            </div>
+                    </div>
+
+                    <div class="w3-row w3-row-padding"> 
+                            <h2>King Dice:</h2>
+                            <div class="w3-col" style="width:10.5%;">
+                                <img style="width:70%;"src="CupHead/fotoKing.webp" alt="">
+                            </div>
+                            <div class="w3-rest"style="width:65%;padding-left:15%">
+                                <p>
+                                    No show de Cuphead! , seu design permanece o mesmo do jogo, mas com pequenas alterações. Os botões de seu colete 
+                                    são pretos, sua gravata é roxa fúcsia, a gola de seu fraque é em um tom mais escuro de roxo e suas pálpebras são 
+                                    prateadas. Seus sapatos também têm um design diferente.
+                                </p>
+                            </div>
+                    </div>
+
+            </div>
+           
+            <br>
+            <!--fim dos personagens--> 
+            <!--inicio das areas-->
+            
+            <h3 id="locais"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Locais:</h3>
+            <table class="w3-table-all">
+                <tr>
+                    <th style="background-color: yellow; width:33%;">nome</th>
+                    <th style="background-color: yellow;width:33%;">mapa</th>
+                    <th style="background-color: yellow;width:33%;">descrição</th>
+                  </tr>
+                  <tr>
+                    <td><h3>Ilha tinteiro I</h3></td>
+                    <td><img style="width:50%;" src="CupHead/ilha1Cup.webp" alt=""></td>
+                    <td style="width:25%; ">A Ilha Tinteiro Um é a primeira "Ilha Tinteiro" que o jogador pode explorar no jogo, a ilha é uma grande área florestal e tem várias árvores, arbustos e plantas.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><h3>Ilha tinteiro II</h3></td>
+                    <td><img style="width:50%;" src="CupHead/ilhaCup2.webp" alt=""></td>
+                    <td style="width:25%; ">A Inkwell Isle One (em português: A Ilha do Tinteiro Dois) é a segunda "Inkwell Isle" que o jogador pode explorar no jogo, a ilha é um grande parque de diversões e vários brinquedos, lojas e atrações podem ser vistas na ilha.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><h3>Ilha tinteiro III</h3></td>
+                    <td><img style="width:50%;" src="CupHead/ilhaCup3.webp" alt=""></td>
+                    <td style="width:25%; ">A Ilha Tinteiro Três é o terceiro mundo em Cuphead. A área consiste em uma cidade à beira-mar.</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><h3>Tinteiro infernal</h3></td>
+                    <td><img style="width:50%;" src="CupHead/ilhaCup4.webp" alt=""></td>
+                    <td style="width:25%; "> Tinteiro Infernal (Inkwell Hell) é o quarto e último mundo em Cuphead. A área consiste na entrada do Cassino do Diabo (Devil's Cassino).</td>
+                    
+                  </tr>
+                  <tr>
+                    <td><h3>Ilha Delicious last course</h3></td>
+                    <td><img style="width:50%;" src="CupHead/ilhaCupDlc.webp" alt=""></td>
+                    <td style="width:25%; ">Cuphead: The Delicious Last Couse (em português: Cuphead: A Última Pista Deliciosa) será a DLC de Cuphead: Don't Deal With the Devil com data prevista para lançamento em 30 de junho de 2022. No conteúdo adicional, o jogador acompanhará Xicrinho e Caneco em outra aventura, desta vez na Ilha DLC, acompanhados pela Sra. Cálice.</td>
+                    
+                  </tr>
+                    
+            </table>
+            <!--fim das areas-->
+            <!--inicio dos inimigos-->
+            <h3 id="inimigos"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">inimigos:</h3>
+            <div class="w3-row w3-third"style="width:33%;border:1px solid black"><center><img class="" style="width:30%"src="CupHead/bolaAzulCup.webp" alt=""></center>
+                <h2 class="w3-card w3-center">Melecone</h2>
+                <p>Melecone (Goopy le Grande) é um dos primeiros chefes em Cuphead, ele pode ser encontrado no nível Meleca Melosa na
+                    Ilha Tinteiro Um. </p>
+                
+            </div>
+                <div class="w3-row w3-third"style="width:33%;border:1px solid black"><center><img class=""style="width:30%" src="CupHead/florCup.webp" alt=""></center>
+                <h2 class="w3-card w3-center">Cactônio Spinoza</h2>
+                <p>Cactônio Spinoza, como seu último nome em inglês indica (Carnation), é um craveiro. Seu caule é coberto de espinhos e
+                    é de cor verde escura, enquanto suas pétalas são de dois tons diferentes de laranja</p>
+            
+            </div>
+                <div class="w3-row w3-third"style="width:33%;border:1px solid black"><center><img style="width:40%" class="" src="CupHead/sapoCup.webp" alt=""></center>
+                <h2 class="w3-card w3-center">Escoaxo</h2>
+                <p>Escoaxo é um sapo verde com uma barriga branca. Ele é um sapo baixo, suas pernas e braços são pequenos, ele usa luvas vermelhas, uma faixa vermelha e calças/leggings brancas.</p>
+            
+            </div>
+        </div>
+            
+           
+            <!--fim dos inimigos--> 
+            <!--inicio das musicas-->
+            
+            
+            <h3 id="musica"class="w3-serif"style="text-shadow:1px 1px 0 #444 ; font-size:40px">Trilha Sonora:</h3>
+            01 - Don't Deal With The Devil
+02 - Don't Deal With The Devil - Instrumental
+03 - Introduction
+04 - Tutorial
+05 - Elder Kettle
+06 - Inkwell Isle One
+07 - Botanic Panic
+08 - Die House
+09 - Elder Kettle - Piano
+10 - Threatenin' Zeppelin
+11 - Treetop Trouble
+12 - Ruse Of An Ooze
+13 - Floral Fury
+14 - Inkwell Isle One - Piano
+15 - Clip Joint Calamity
+16 - Forest Follies
+17 - Inkwell Isle Two
+18 - Sugarland Shimmy
+19 - Aviary Action
+20 - Inkwell Isle Two - Piano
+21 - Carnival Kerfuffle
+22 - Fiery Frolic
+23 - Funfair Fever
+24 - The Mausoleum
+25 - Legendary Ghost
+26 - Pyramid Peril
+27 - Victory Tune
+28 - Hurry Up
+29 - A Quick Break
+30 - Coin-Op Bop
+31 - High Score
+32 - Funhouse Frazzle
+33 - Inkwell Isle Three
+34 - Honeycomb Herald
+35 - Porkrind's Shop
+36 - Shootin n' Lootin
+37 - Dramatic Fanatic
+38 - Perilous Piers
+39 - Murine Corps
+40 - Junkyard Jive
+41 - Rugged Ridge
+42 - High Seas Hi-jinx
+43 - Railroad Wrath
+44 - Inkwell Isle Three - Piano
+45 - The Airship
+46 - All Bets Are Off
+47 - Inkwell Hell
+48 - The King's Court
+49 - Inkwell Hell - Piano
+50 - Chief Evil Officer
+51 - Admission To Perdition
+52 - Ominous Interlude
+53 - One Hell Of A Time
+54 - The End
+55 - Winner Takes All
+56 - Closing Credits
+
+
+    </div>   
+</main>
+</body>
+</html>
+              
